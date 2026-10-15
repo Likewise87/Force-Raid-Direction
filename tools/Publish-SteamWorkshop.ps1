@@ -23,7 +23,7 @@ $ErrorActionPreference = 'Stop'
 
 $RimWorldAppId = '294100'
 $AllowFolders = @('About', 'Assemblies')
-$RequiredAssemblies = @('ForceRaidDirection.dll', '0Harmony.dll')
+$RequiredAssemblies = @('ForceRaidDirection.dll')
 
 $RepoRoot = (Resolve-Path (Join-Path $PSScriptRoot '..')).Path
 $StageRoot = Join-Path $RepoRoot 'tools\_workshop_stage'
